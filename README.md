@@ -12,17 +12,8 @@ Then we will evaluate a number of different machine learning models to evaluate 
 2)	EasyEnsembleAdaBoostClassifier 
 
 Results:   
-![alt text](https://github.com/addiwei/Creidt_Risk_Analysis/blob/main/modeltable.JPG)
-
 Here are the full results of the analysis:
-
-Method / Model 	                                               Balanced Accuracy 	  Avg Precision	   Avg Recall
-Naïve random oversampling	                                     0.590268965	        0.99	           0.58
-SMOTE	                                                         0.6172722	          0.99	           0.66
-Undersampling – ClustterCentroids	                             0.500727204	        0.99	           0.47
-Combination of Over and Undersampling also called: SMOTEENN	   0.609723179	        0.99	           0.58
-BalancedRandomForestClassifier	                               0.733858491	        0.99	           0.96
-EasyEnsembleAdaBoostClassifier 	                               0.855191752	        0.99	           0.92
+![alt text](https://github.com/addiwei/Creidt_Risk_Analysis/blob/main/modeltable.JPG)
 
 Based on the metrics of average recall, we see a clear winner with BalancedRandomForestClassifier with a 4% lift on average recall and therefore we should go with this model 
 
