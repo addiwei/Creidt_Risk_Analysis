@@ -12,7 +12,10 @@ Then we will evaluate a number of different machine learning models to evaluate 
 2)	EasyEnsembleAdaBoostClassifier 
 
 Results:   
+![alt text](https://github.com/addiwei/Creidt_Risk_Analysis/blob/main/modeltable.JPG)
+
 Here are the full results of the analysis:
+
 Method / Model 	                                               Balanced Accuracy 	  Avg Precision	   Avg Recall
 Naïve random oversampling	                                     0.590268965	        0.99	           0.58
 SMOTE	                                                         0.6172722	          0.99	           0.66
