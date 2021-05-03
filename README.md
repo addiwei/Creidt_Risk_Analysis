@@ -17,5 +17,6 @@ Here are the full results of the analysis:
 
 Based on the metrics of average recall, we see a clear winner with BalancedRandomForestClassifier with a 4% lift on average recall and therefore we should go with this model 
 
-Recommendations / Summary 
+Recommendations / Summary:
+
 We will utilize the model that gave us the best metric of recall which in this case is BalancedRandomForestClassifier   
